@@ -1,5 +1,5 @@
 import React from 'react'
-import imagenLogo from '../image/prueba-vite.png'
+import imagenLogo from '../../image/prueba-vite.png'
 
 
 
