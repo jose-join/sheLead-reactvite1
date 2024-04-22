@@ -1,19 +1,19 @@
 import React from 'react'
-import imagenLogo from '../image/prueba-vite.png'
+import imagenLogo from '../../image/prueba-vite.png'
 
 
 
 const Header = () => {
   return (
-    <div className="bg-red-200 p-4">
+    <div className="sticky top-0 z-50 bg-red-200 p-4">
   <div className="container mx-auto flex flex-col lg:flex-row lg:justify-between items-center">
     <div className="flex items-center mb-4 lg:mb-0">
       <img src={imagenLogo} alt="Logo" className="h-12 w-auto" />
-      <a href="/" className="text-2xl lg:text-3xl font-bold italic ml-2">SheLead</a>
+      <a href="#inicio" className="text-2xl lg:text-3xl font-bold italic ml-2">SheLead</a>
     </div>
     <nav>
       <ul className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-4">
-        <li><a href="/" className="text-lg lg:text-xl text-black hover:text-red-800">Como Funciona</a></li>
+        <li><a href="#como-funciona" className="text-lg lg:text-xl text-black hover:text-red-800">Como Funciona</a></li>
         <li><a href="/about" className="text-lg lg:text-xl text-black hover:text-red-800">Nosotros</a></li>
         <li><a href="/contact" className="text-lg lg:text-xl text-black hover:text-red-800">Mentoria</a></li>
         <li><a href="/contact" className="text-lg lg:text-xl text-black hover:text-red-800">Precios</a></li>
