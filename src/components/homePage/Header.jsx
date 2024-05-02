@@ -1,5 +1,6 @@
 import React from 'react'
 import imagenLogo from '../../image/prueba-vite.png'
+import { Link } from 'react-router-dom';
 
 
 
@@ -22,7 +23,10 @@ const Header = () => {
     </nav>
     <div className="flex items-center">
       <button className="bg-white text-black px-4 py-2 rounded-md mr-4 hover:bg-rose-500">Iniciar sesión</button>
-      <button className="bg-red-900 text-white px-4 py-2 rounded-md hover:bg-rose-500">Registrarse</button>
+      {/* <button to className="bg-red-900 text-white px-4 py-2 rounded-md hover:bg-rose-500">Registrarse</button> */}
+      <Link to="/registro" className="bg-red-900 text-white px-4 py-2 rounded-md hover:bg-rose-500">
+        Registrarse
+      </Link>
       <div className='hidden lg:flex items-center justify-center h-10 w-10 rounded-full bg-rose-400 ml-4 flex-shrink-0'>
         SHE
       </div>

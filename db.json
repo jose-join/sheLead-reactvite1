@@ -1,0 +1,24 @@
+{
+    "usuario": [
+        {
+            "id": "1",
+            "nombre": "Alexandra",
+            "apellido": "Robles",
+            "telefono": 906860422,
+            "email": "Alexandra@Alexandra.com",
+            "fecha-nacimiento": "1997-12-12",
+            "contrasena": "1234",
+            "categoria": "mentora"
+        },
+        {
+            "id": "2",
+            "nombre": "Maria",
+            "Apellido": "Gonzalez",
+            "telefono": 906860422,
+            "email": "Maria@Gonzales.com",
+            "fecha-nacimiento": "1997-12-12",
+            "contrasena": "1234",
+            "categoria": "mentee"
+        }
+    ]
+}
