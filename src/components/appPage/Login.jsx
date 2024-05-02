@@ -1,7 +1,8 @@
 import React from 'react';
 function Login() {
     return (
-      <div className='bg-white px-10 py-20 rounded-3xl border-2 border-gray-100'>
+    <div className="flex justify-center items-center h-screen bg-gradient-to-r from--500">
+        <div className='bg-white px-10 py-20 rounded-3xl border-2 border-gray-100 shadow-lg sha'>
         <h1 className='text-5xl font-semibold '>Login</h1>
         <p className='font-medium text-lg text-gray-500 mt-4'>Please enter your details</p>
         <div className='mt-8'>
@@ -26,6 +27,7 @@ function Login() {
             </div>
         </div>
       </div>
+    </div>
     );
   } 
 export default Login
