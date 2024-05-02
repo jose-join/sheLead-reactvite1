@@ -20,7 +20,7 @@ const Header = () => {
           </ul>
         </nav>
         <div className="flex items-center">
-          <button className="bg-white text-black px-4 py-2 rounded-md mr-4 hover:bg-rose-500">Iniciar sesión</button>
+        <Link to="/login" className="bg-white text-black px-4 py-2 rounded-md mr-4 hover:bg-rose-500">Iniciar sesión</Link> {/* Modificado el botón para redirigir al componente Login */}
           <Link to="/register" className="bg-red-900 text-white px-4 py-2 rounded-md hover:bg-rose-500">Registrarse</Link>
           <div className='hidden lg:flex items-center justify-center h-10 w-10 rounded-full bg-rose-400 ml-4 flex-shrink-0'>
             SHE
